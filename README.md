@@ -2,7 +2,7 @@
 
 An autonomous multi-agent AI system that hunts for online deals in real time. It combines a custom fine-tuned LLM deployed as a serverless API, a RAG pipeline backed by 800,000 product embeddings, and a frontier model — all orchestrated by an autonomous planning agent that scans, evaluates, and surfaces the best bargains automatically.
 
-![DealHunter AI Interface](deal_hunter_ai.png)
+![DealHunter AI Interface](deal_hunter_ai_ss.png)
 
 ---
 
