@@ -12,12 +12,12 @@ secrets = [modal.Secret.from_name("huggingface-secret")]
 
 # GPU and model configuration
 GPU = "T4"
-BASE_MODEL = "unsloth/Llama-3.2-3B"  # Using unsloth since you have access
+BASE_MODEL = "meta-llama/Llama-3.2-3B"
 PROJECT_NAME = "price"
-HF_USER = "ed-donner"
-RUN_NAME = "2025-11-28_18.47.07"
+HF_USER = "EmilIsmayilzada0707"
+RUN_NAME = "2026-03-28_15.33.16"
 PROJECT_RUN_NAME = f"{PROJECT_NAME}-{RUN_NAME}"
-REVISION = "b19c8bfea3b6ff62237fbb0a8da9779fc12cefbd"
+REVISION = "4a5b7394a5dfcece5f8c103326e6460042e733a9"
 FINETUNED_MODEL = f"{HF_USER}/{PROJECT_RUN_NAME}"
 CACHE_DIR = "/cache"
 
